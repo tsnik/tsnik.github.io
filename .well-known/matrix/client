@@ -8,5 +8,11 @@
     },
     "m.homeserver": {
         "base_url": "https://matrix.nstsyrlin.ru"
-    }
+    },
+    "org.matrix.msc4143.rtc_foci": [
+        {
+            "livekit_service_url": "https://matrix.nstsyrlin.ru/livekit-jwt-service",
+            "type": "livekit"
+        }
+    ]
 }
